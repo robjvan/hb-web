@@ -1,0 +1,105 @@
+
+/* ========== THEME DEFINITIONS ========== */
+
+/* .theme-air {
+  --background-gradient: linear-gradient(to bottom right, #E0F7FA, #FFFFFF);
+  --text-color: #37474F;
+}
+
+.theme-sky {
+  --background-gradient: linear-gradient(to top, #87CEFA, #4682B4);
+  --text-color: #ffffff;
+}
+
+.theme-earth {
+  --background-gradient: linear-gradient(to bottom right, #4E342E, #8D6E63, #A1887F);
+  --text-color: #F5F5F5;
+}
+
+.theme-fire {
+  --background-gradient: linear-gradient(135deg, #FF7043, #FF5722, #E64A19);
+  --text-color: #ffffff;
+}
+
+.theme-water {
+  --background-gradient: linear-gradient(to bottom, #00B8D4, #006064);
+  --text-color: #E0F7FA;
+}
+
+.theme-night {
+  --background-gradient: linear-gradient(to bottom, #0D47A1, #1A237E, #000000);
+  --text-color: #E8EAF6;
+}
+
+.theme-morning {
+  --background-gradient: linear-gradient(to right, #FFECB3, #FFB74D, #FF8A65);
+  --text-color: #4E342E;
+}
+
+.theme-day {
+  --background-gradient: linear-gradient(to bottom, #FFF9C4, #FFEB3B, #FBC02D);
+  --text-color: #37474F;
+}
+
+.theme-zen {
+  --background-gradient: linear-gradient(120deg, #C8E6C9, #A5D6A7, #81C784);
+  --text-color: #1B5E20;
+}
+
+.theme-deep {
+  --background-gradient: linear-gradient(to bottom, #263238, #37474F, #455A64);
+  --text-color: #ECEFF1;
+} */
+
+/* ========== ENHANCED THEME DEFINITIONS ========== */
+
+.theme-air {
+  --background-gradient: linear-gradient(135deg, #E0F7FA 0%, #B2EBF2 50%, #FFFFFF 100%);
+  --text-color: #263238;
+}
+
+.theme-sky {
+  --background-gradient: linear-gradient(to top right, #87CEFA 0%, #4682B4 70%, #1E88E5 100%);
+  --text-color: #E3F2FD;
+}
+
+.theme-earth {
+  --background-gradient: linear-gradient(to bottom, #4E342E 0%, #6D4C41 40%, #8D6E63 70%, #A1887F 100%);
+  --text-color: #FBE9E7;
+}
+
+.theme-fire {
+  --background-gradient: linear-gradient(45deg, #FF7043 0%, #FF5722 50%, #E64A19 80%, #BF360C 100%);
+  --text-color: #FFF3E0;
+}
+
+.theme-water {
+  --background-gradient: radial-gradient(circle at top left, #00B8D4 0%, #00BCD4 40%, #00838F 100%);
+  --text-color: #E0F7FA;
+}
+
+.theme-night {
+  --background-gradient: linear-gradient(to bottom, #0D47A1 0%, #1A237E 50%, #000000 100%);
+  --text-color: #E8EAF6;
+}
+
+.theme-morning {
+  --background-gradient: linear-gradient(to right, #FFECB3 0%, #FFD54F 50%, #FFB74D 80%, #FF8A65 100%);
+  --text-color: #4E342E;
+}
+
+.theme-day {
+  --background-gradient: linear-gradient(to bottom, #FFF9C4 0%, #FFEB3B 50%, #FBC02D 100%);
+  --text-color: #37474F;
+}
+
+.theme-zen {
+  --background-gradient: linear-gradient(120deg, #C8E6C9 0%, #A5D6A7 40%, #81C784 70%, #66BB6A 100%);
+  --text-color: #1B5E20;
+}
+
+.theme-deep {
+  --background-gradient: linear-gradient(to bottom, #263238 0%, #37474F 50%, #455A64 100%);
+  --text-color: #ECEFF1;
+}
+
