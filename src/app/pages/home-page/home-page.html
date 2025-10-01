@@ -1,0 +1,28 @@
+<div class="body d-flex flex-column vh-100 px-4 py-5">
+  <div id="header" class="h1 text-center">HaikuBot</div>
+
+  <div class="m-auto">
+    <p class="text-center fst-italic h4 fw-normal">{{ haiku()?.lineOne }}</p>
+    <p class="text-center fst-italic h4 fw-normal">{{ haiku()?.lineTwo }}</p>
+    <p class="text-center fst-italic h4 fw-normal">{{ haiku()?.lineThree }}</p>
+    <!-- <p class="text-center fst-italic">Theme: {{ haiku()?.theme }}</p> -->
+  </div>
+
+  <div class="d-flex flex-row mx-auto">
+    <button class="btn btn-outline-dark" (click)="getNewHaiku()">Fetch another haiku</button>
+  </div>
+  <!-- <div class="button btn-outline-light">Generate a new haiku</div> -->
+
+  <div class="d-flex flex-row gap-2 mx-auto mt-auto">
+    <button class="btn btn-outline-dark" (click)="changeTheme('air')">Air</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('sky')">Sky</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('earth')">Earth</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('water')">Fire</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('water')">Water</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('night')">Night</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('morning')">Morning</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('day')">Day</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('zen')">Zen</button>
+    <button class="btn btn-outline-dark" (click)="changeTheme('deep')">Deep</button>
+  </div>
+</div>

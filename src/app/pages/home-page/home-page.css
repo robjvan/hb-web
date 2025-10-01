@@ -1,0 +1,14 @@
+.body.py-5 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+.h1 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
