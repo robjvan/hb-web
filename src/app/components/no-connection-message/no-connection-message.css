@@ -1,0 +1,23 @@
+#no-server-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  justify-items: center;
+}
+
+p {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+#no-server-icon {
+  filter: invert(100%);
+  -webkit-filter: invert(1);
+  -moz-filter: invert(100%);
+  -o-filter: invert(100%);
+  -ms-filter: invert(100%);
+  opacity: 0.9;
+  height: 10rem;
+}
