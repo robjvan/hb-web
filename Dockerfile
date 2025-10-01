@@ -47,9 +47,11 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy Angular build output
 COPY --from=build /app/dist/browser /usr/share/nginx/html
 
-# Ensure files are readable by Nginx user
-RUN chown -R nginx:nginx /usr/share/nginx/html \
-    && chmod -R 755 /usr/share/nginx/html
+# Fix ownership and permissions
+RUN mkdir -p /usr/share/nginx/html && \
+    chown -R nginx:nginx /usr/share/nginx/html && \
+    find /usr/share/nginx/html -type d -exec chmod 755 {} \; && \
+    find /usr/share/nginx/html -type f -exec chmod 644 {} \;
 
 # Expose port
 EXPOSE 80
